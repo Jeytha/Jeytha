@@ -1,0 +1,585 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Jeytha Sahana Venkatesh Babu | Cybersecurity Portfolio</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+  :root {
+    --primary-color: #4a90e2;
+    --secondary-color: #f5a623;
+    --background-light: #f9fbfd;
+    --text-dark: #2c3e50;
+    --shadow-light: rgba(74, 144, 226, 0.25);
+  }
+
+  /* Reset & base */
+  * {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--background-light);
+    margin: 0;
+    color: var(--text-dark);
+    line-height: 1.5;
+  }
+
+  a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  a:hover {
+    color: var(--secondary-color);
+  }
+
+  header {
+    background: linear-gradient(135deg, #4a90e2, #357ABD);
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+    box-shadow: 0 4px 10px var(--shadow-light);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  header h1 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 2.8rem;
+    letter-spacing: 2px;
+    animation: slideDown 1s ease forwards;
+  }
+  header p {
+    margin: 0.3rem 0 0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    animation: slideDown 1.3s ease forwards;
+  }
+  @keyframes slideDown {
+    0% { opacity: 0; transform: translateY(-20px);}
+    100% { opacity: 1; transform: translateY(0);}
+  }
+
+  main {
+    max-width: 900px;
+    margin: 2rem auto 4rem;
+    padding: 0 1rem;
+  }
+
+  section {
+    background: white;
+    border-radius: 10px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 8px 15px var(--shadow-light);
+    transition: box-shadow 0.3s ease;
+  }
+  section:hover {
+    box-shadow: 0 12px 20px var(--secondary-color);
+  }
+
+  h2 {
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-bottom: 1rem;
+    border-bottom: 3px solid var(--secondary-color);
+    padding-bottom: 0.3rem;
+    letter-spacing: 1.2px;
+  }
+
+  /* Contact info */
+  .contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+  .contact-links a {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    border: 2px solid var(--secondary-color);
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    background: #fff7e6;
+    box-shadow: 0 4px 8px rgba(245, 166, 35, 0.3);
+    transition: all 0.3s ease;
+  }
+  .contact-links a:hover {
+    background: var(--secondary-color);
+    color: white;
+    box-shadow: 0 6px 12px rgba(245, 166, 35, 0.6);
+  }
+
+  /* Core competencies list */
+  .competencies {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #555;
+    line-height: 1.6;
+  }
+  .competencies span {
+    display: inline-block;
+    background: var(--primary-color);
+    color: white;
+    padding: 0.2rem 0.5rem;
+    margin: 0 4px 6px 0;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: default;
+    user-select: none;
+    transition: background-color 0.3s ease;
+  }
+  .competencies span:hover {
+    background: var(--secondary-color);
+  }
+
+  /* Education styles */
+  .education-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  .education-list li {
+    margin-bottom: 1.5rem;
+  }
+  .edu-header {
+    font-weight: 600;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.3rem;
+  }
+  .edu-header img {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px var(--shadow-light);
+  }
+  .edu-details {
+    margin-left: 40px;
+    color: #555;
+    font-size: 0.95rem;
+  }
+  .edu-details .degree {
+    font-weight: 600;
+    margin-top: 0.2rem;
+  }
+  .edu-date {
+    font-style: italic;
+    color: #999;
+  }
+
+  /* Skills grid */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap: 1.5rem;
+  }
+  .skill-category {
+    background: #f0f7ff;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: inset 0 0 10px #c9d9f9;
+  }
+  .skill-category h3 {
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+    color: var(--secondary-color);
+  }
+  .skill-list {
+    list-style: none;
+    padding-left: 0;
+    font-size: 0.9rem;
+    color: #333;
+  }
+  .skill-list li {
+    margin-bottom: 0.4rem;
+    position: relative;
+    padding-left: 18px;
+  }
+  .skill-list li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--primary-color);
+    font-weight: 700;
+  }
+
+  /* Certifications */
+  .cert-list {
+    list-style: none;
+    padding-left: 0;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #444;
+  }
+  .cert-list li {
+    margin-bottom: 0.5rem;
+    position: relative;
+    padding-left: 20px;
+  }
+  .cert-list li::before {
+    content: "🏅";
+    position: absolute;
+    left: 0;
+  }
+
+  /* Experience & projects */
+  .job, .project, .learning {
+    margin-bottom: 1.8rem;
+    border-left: 4px solid var(--primary-color);
+    padding-left: 1rem;
+  }
+  .job h4, .project h4, .learning h4 {
+    margin: 0 0 0.2rem 0;
+    font-weight: 700;
+    color: var(--secondary-color);
+  }
+  .job .date, .project .date, .learning .date {
+    font-style: italic;
+    font-size: 0.85rem;
+    color: #888;
+    margin-bottom: 0.7rem;
+  }
+  ul.job-responsibilities, ul.project-details, ul.learning-details {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+    font-size: 0.9rem;
+    color: #333;
+  }
+  ul.job-responsibilities li, ul.project-details li, ul.learning-details li {
+    margin-bottom: 0.4rem;
+  }
+
+  /* Animations for sections */
+  section {
+    opacity: 0;
+    transform: translateY(20px);
+    animation-fill-mode: forwards;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-out;
+  }
+  section:nth-child(1) { animation-name: fadeUp; animation-delay: 0.2s; }
+  section:nth-child(2) { animation-name: fadeUp; animation-delay: 0.4s; }
+  section:nth-child(3) { animation-name: fadeUp; animation-delay: 0.6s; }
+  section:nth-child(4) { animation-name: fadeUp; animation-delay: 0.8s; }
+  section:nth-child(5) { animation-name: fadeUp; animation-delay: 1s; }
+  section:nth-child(6) { animation-name: fadeUp; animation-delay: 1.2s; }
+  section:nth-child(7) { animation-name: fadeUp; animation-delay: 1.4s; }
+
+  @keyframes fadeUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Footer */
+  footer {
+    text-align: center;
+    color: #aaa;
+    font-size: 0.85rem;
+    margin: 4rem 0 2rem;
+  }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    header h1 {
+      font-size: 2rem;
+    }
+    main {
+      margin: 1rem;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>JEYTHA SAHANA VENKATESH BABU</h1>
+  <p>New York, NY 10038 | <a href="mailto:jeythasahana.venkateshbabu@pace.edu" target="_blank" rel="noopener" style="color: white;"></a>jeythasahana.venkateshbabu@pace.edu</a> | (908) 288-4273</p>
+  <div class="contact-links" style="justify-content:center; margin-top:0.8rem;">
+    <a href="https://www.linkedin.com/in/jeytha-sahana" target="_blank" rel="noopener" title="LinkedIn">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" width="18" height="18" /> linkedin.com/in/jeytha-sahana
+    </a>
+    <a href="https://github.com/Jeytha" target="_blank" rel="noopener" title="GitHub">
+      <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" width="18" height="18" /> github.com/Jeytha
+    </a>
+  </div>
+</header>
+
+<main>
+
+<section id="intro" style="font-family: Comic Arial, Helvetica, sans-serif; padding: 30px 40px; background-color: #e6f0ff; border-radius: 10px; max-width: 900px; margin: 30px auto; box-sizing: border-box;">
+  <h2 style="color: #0056b3;">Hola! </h2>
+  <ul style="font-size: 1.15em; line-height: 1.8; color: #222; padding-left: 20px;">
+    <p>⭐I am your girl next door with a laptop and a mission — slaying cyber threats every day.<br>
+    ⭐I believe the universe brought me earth side to build a safer digital world, one fearless step at a time.<br>
+    ⭐I mix curiosity, tech skills, and a dash of magic to make real impact.<br>
+    ⭐Let’s connect, make an impactful difference, and have fun along the way!<br>
+    </p>
+  </ul>
+</section>
+
+
+
+    <section id="SoftwareSkills">
+  <h2>🧰 SOFTWARE</h2>
+  <p class="competencies" aria-label="List of core competencies">
+    <span>💻 C++</span>
+    <span>📊 R Studio</span>
+    <span>🐍 Python - Scripting and Automation</span>
+    <span>💻 Bash Scripting</span>
+    <span>🛠️ PowerShell</span>
+  </p>
+</section>
+
+
+   <section id="FrameworksStandards">
+  <h2>📚 FRAMEWORKS AND PROTOCOLS</h2>
+  <p class="competencies" aria-label="List of security frameworks and standards">
+    <span>📘 ISO 27001/IEC 27002 / IEC 62443</span>
+    <span>🧱 NIST 800 / NIST CSF</span>
+    <span>🛡️ CIS Controls</span>
+    <span>💳 PCI/DSS/ GDPR</span>
+    <span>🎯 MITRE ATT&CK</span>
+    <span>🔎 STRIDE Analysis</span>
+    <span>📡 TCP/IP/UDP </span>
+    <span>📤 WLAN LAN/FTP/SMTP</span>
+    <span>🌍 SSH/Telnet/HTTP/HTTPS/DNS</span>
+    <span>⚡ NERC CIP/ IEC</span>
+    <span>🔌 Modbus/Profibus/Ethernet </span>
+    <span>⚙️ HART /SCADA/ DNP3</span></span>
+  </p>
+</section>
+
+<section id="SecurityTools">
+  <h2>🔐 SECURITY TOOLS AND PLATFORMS</h2>
+  <p class="competencies" aria-label="List of cybersecurity tools and platforms">
+    <span>🖥️ Apache</span>
+    <span>🐳 Docker</span>
+    <span>💣 Metasploit</span>
+    <span>🧪 Burp Suite</span>
+    <span>🔍 Wireshark</span>
+    <span>📡 TCPDump</span>
+    <span>📊 Splunk</span>
+    <span>🛡️ OWASP ZAP</span>
+    <span>🧯 Nessus</span>
+    <span>🛰️ Nmap</span>
+    <span>🌐 OpenVPN</span>
+    <span>🍯 Honeypot (Cowrie)</span>
+    <span>🧱🔥Firewall Policies - iptables </span>
+  </p>
+
+</section>
+<section id="OperatingSystems">
+  <h2>💻 OPERATING SYSTEMS</h2>
+  <p class="competencies" aria-label="List of operating systems used">
+    <span>🐧 Linux - Ubuntu</span>
+    <span>🐉 Kali Linux</span>
+    <span>🪟 Windows Server & Client</span>
+    <span>🌐 Chrome OS</span>
+    <span>🍎 macOS</span>
+  </p>
+</section>
+
+
+
+
+  <section id="education">
+    <h2>EDUCATION 🎓📜</h2>
+    <ul class="education-list" role="list">
+      <li>
+        <div class="edu-header">
+            <strong> 
+          <span> Master of Science in Cybersecurity, Pace University - 🏅Scholarship (May 2026)  </span>
+        </div>
+        <div class="edu-details">
+
+        <span class="degree"> GPA: 3.9/4.0</span><br />
+           
+        </div>
+      </li>
+      <li>
+        <div class="edu-header">
+          <span>Bachelor of Engineering in Computer Science, Anna University (May 2023) </span>
+        </div>
+        <div class="edu-details">
+          GPA: 7.8/10.0 </strong>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+
+  <section id="Certifications">
+    <h2>CERTIFICATIONS</h2>
+
+    <div class="job" aria-label="Cybersecurity Analyst at Enphase Energy">
+        <strong>
+        <li> 🛠️⚠️ CISA - Industrial Control System Cybersecurity (300) Training (1.4 CEUs) |</li>
+          <li> 🛡️‍⚔️ ICS 100 - Introduction to Incident Command Systems - FEMA IS-100.c (2024) </li>
+          <li>🔍📊 Splunk- The Art of Investigation</li>
+          <li>🕵️‍♂️📁Splunk- Visualizations</li>
+          </strong>
+      </ul>
+    </div>
+
+    
+
+
+  <section id="professional-experience">
+    <h2>PROFESSIONAL EXPERIENCE</h2>
+
+    <div class="job" aria-label="Google">
+      <h4> <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google Logo" style="vertical-align: middle; width: 60px; height: auto;">
+
+Security Consultant Intern | Google</h4>
+      <div class="date">May 2025 - Present</div>
+      <ul class="job-responsibilities">
+        <li>Designed and enhanced Next-Generation Firewall (NGFW) software modules to improve network threat detection.</li>
+        <li>Conducted code reviews and security assessments to mitigate vulnerabilities in critical systems.</li>
+        <li>Automated testing and deployment pipelines using CI/CD methodologies.</li>
+        <li>Collaborated with QA and security teams to ensure compliance with security best practices.</li>
+      </ul>
+
+</div>    
+ <div class="job" aria-label="Amazon ">
+      <h4> <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon Logo" style="vertical-align: middle; width: 60px; height: auto;">
+
+MACHINE LEARNING DATA ASSOCIATE | AMAZON</h4>
+      <div class="date">May 2023 - Jan 2024</div>
+      <ul class="job-responsibilities">
+        <li>Improved data accuracy through new data extraction methods applied to classified datasets, ensuring <strong>compliance with data protection regulations and application security</strong>.</li>
+        <li>Collaborated with a <strong>team of 50</strong> to analyze large datasets, enhancing operational efficiency and maintained <strong>accuracy of 90% </strong>while maintaining data integrity and security protocols.</li>
+        <li>Develop and implement security policies aligned with industry standards such as <strong> NIST and ISO 27001</strong>.</li>
+        <li>Engaged in comprehensive <strong>data quality assessments and security audits</strong>, enhancing the reliability of <Strong>strategic decision-making data and mitigating potential vulnerabilities</Strong>.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>KEY PROJECTS</h2>
+
+    <div class="project" aria-label="Network Scanner GUI Project">
+      <h4>Network Scanner Project</h4>
+      <div class="date">DEC 2024</div>
+      <ul class="project-details">
+        <li>Developed a Python-based network scanner with <strong>Tkinter GUI</strong>, detecting <strong>100+ open ports, identifying services, and improving scan time by 30% </strong>through optimization and responsive UI.</li>
+      </ul>
+    </div>
+
+    <div class="project" aria-label="Cybersecurity Advisory Project">
+      <h4>Cybersecurity Advisory Project</h4>
+      <div class="date">DEC 2024</div>
+      <ul class="project-details">
+        <li>Advised cybersecurity strategies for a conceptualized global e-commerce firm on federal compliance, and international expansion. </li>
+        <li>Outlined implementation roadmap covering <strong>identification, protection, detection, response, and recovery</strong>.</li>
+        <li>Delivered recommendations, Evaluated <strong>NIST CSF 2.0, ISO 27001, PCI DSS; designed IAM lifecycle, entitlement review, MFA, SSO, adaptive auth; implemented Zero Trust (least privilege, continuous verification, segmentation); defined RBAC for cloud security</strong>.</li>
+        <li>Recommended NIST Cybersecurity Framework for its comprehensive, flexible approach. </li>
+      </ul>
+    </div>
+
+  <div class="project" aria-label="Replication and Analysis of the Mitnick Attack: TCP Session Hijacking in a Controlled Environment">
+      <h4>Replication and Analysis of the Mitnick Attack: TCP Session Hijacking in a Controlled Environment</h4>
+      <div class="date">MARCH 2025</div>
+      <ul class="project-details">
+        <li>Executed a case study replicating the<strong> Mitnick Attack</strong>, a <strong>TCP session hijacking technique</strong>, in a restricted lab environment.</li>
+        <li>Analyzed <strong>SYN flooding, TCP sequence number prediction, and spoofing-based backdoor </strong>implantation, providing security recommendations to mitigate similar network vulnerabilities.</li>
+      </ul>
+    </div>
+
+    <div class="project" aria-label="Penetration Testing a Vulnerable Web Application Using OWASP Juice Shop">
+      <h4>Penetration Testing a Vulnerable Web Application Using OWASP Juice Shop</h4>
+      <div class="date">MARCH 2025</div>
+      <ul class="project-details">
+        <li>Set up and tested OWASP Juice Shop on <strong>SEED UBUNTU</strong> using <strong>Docker</strong>, identified vulnerabilities, and confirmed open port 3000 via <strong>Nmap with 100% successful deployment </strong>and scan.</li>
+      </ul>
+    </div>
+
+    <div class="project" aria-label="Network security and Defense for a conceptualized company">
+      <h4>Network security and Defense for a conceptualized company</h4>
+      <div class="date">MARCH 2025</div>
+      <ul class="project-details">
+        <li>Designed and implemented a segmented network architecture for an e-commerce company with DMZ and internal zones; </li>
+        <li> Deployed<strong> Apache server, configured firewall rules, and enabled secure VPN access</strong>.</li>
+        <li> Integrated<strong> Snort and Splunk </strong>for intrusion detection and centralized SIEM-based monitoring across the network.</li>
+    </ul>
+    </div>
+    
+  </section>
+
+
+  <section id="learning-and-development">
+    <h2>EXPERENTIAL LEARNING</h2>
+
+    <div class="learning" aria-label="VoteTech: Revolutionizing Democracy – Modernizing Voting with TCS (3rd place)">
+      <h4></svg>VoteTech: Revolutionizing Democracy – Modernizing Voting with TCS (3rd place)</h4>
+      <div class="date">Jan 2025</div>
+      <ul class="learning-details">
+      <li>Delivered system design, layout, & security plan to a panel of TCS Cloud Architects, AI Directors, & Delivery Leads.</li>
+      <li>Devised a Secure Digital Voting System: Collaborated with a cross-functional team to design a <strong>secure, scalable voting platform, integrating data protection</strong> features and accessibility enhancements based on user feedback.</li> 
+      <li>Integrated user interface security with<strong> screen inactivity timeout </strong>to restrict unauthorized access, instituting a <strong>demilitarized zone</strong> for added security between the system front & backend. </li>
+      </ul>
+    </div>
+
+<div class="learning" aria-label="MITRE eCTF'25">
+      <h4></svg>MITRE eCTF'25</h4>
+      <div class="date">Jan 2025</div>
+      <ul class="learning-details">
+      <li>Phase 1 (Design and Secure): A secure <strong>embedded system</strong> was designed based on challenge requirements. The system's architecture was analyzed, vulnerabilities identified, and countermeasures applied to prevent attacks.</li>
+       <li>Phase 2 (Attack and Exploit): Other teams' designs were analyzed and attacked, exploiting vulnerabilities using techniques such as</strong> side-channel attacks, buffer overflows, and physical access attacks</strong>.</li>
+      </ul>
+    </div>
+
+  </section>
+<section id="core-competencies">
+    <h2>CORE COMPETENCIES</h2>
+<p class="competencies" aria-label="List of core competencies">
+  <span>Cybersecurity Risk Management</span> 
+  <span>Threat Detection & Incident Response</span> 
+  <span>Vulnerability Assessment & Penetration Testing</span> 
+  <span>Network/Cloud Security</span> 
+  <span>Identity & Access Management</span> 
+  <span>Cryptography</span> 
+  <span>Security Auditing & Compliance</span> 
+  <span>Zero Trust Architecture</span> 
+  <span>Endpoint Detection & Response</span> 
+  <span>Secure Software Development Lifecycle </span> 
+  <span>Digital Forensics</span>
+</p>
+</section>
+<section>
+<h2>CONTACT</h2>
+<form class="competencies" aria-label="Contact form" action="/submit-contact" method="POST" style="display: flex; flex-direction: column; gap: 10px; max-width: 400px;">
+  <label for="name" style="font-weight: bold;">Name</label>
+  <input type="text" id="name" name="name" required placeholder />
+
+  <label for="email" style="font-weight: bold;">Email</label>
+  <input type="email" id="email" name="email" required placeholder />
+
+  <label for="message" style="font-weight: bold;">Message</label>
+  <textarea id="message" name="message" rows="4" placeholder required></textarea>
+
+  <button type="submit" style="padding: 8px; font-weight: bold; cursor: pointer; background-color: #007bff; color: white; border: none; border-radius: 4px;">
+    Send</button>
+</form>
+</section>
+<footer>
+  &copy; 2025 Jeytha Sahana Venkatesh Babu ❤️
+</footer>
+
+</body>
+</html>
