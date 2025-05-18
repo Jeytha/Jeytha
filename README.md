@@ -3,16 +3,13 @@
 
 👋 Hi, I'm Jeytha!
 
-Alright, let's amp up the catchiness! How about this:
 
-✨ Jeytha - Decoding the Digital & Physical Worlds! ✨
+🔭 Currently navigating the universe of Industrial Control Systems (ICS) — where sparks fly, both literally and digitally! ⚙️✨
 
-🔭 Currently immersed in the captivating realm of Industrial Control Systems (ICS) 🏭🔍, where bits meet bolts!
+🌱 On a quest to conquer the Security+ exam! 🛡️ 😅📚
 
-🌱 On a quest to conquer the Security+ exam! 🛡️ Pretty sure my spirit animal is a confused firewall. 😅📚
+🌌 Passionate about bridging IT and OT realms, hunting threats across dimensions and collaborating on defences in cybersecurity.
 
-👯 Open to epic collaborations in ICS/OT security, threat hunting, and bridging the IT/OT divide! Let's build something secure! 🤝💡
+📬 Cast your messages via GitHub scrolls or owl-mail me at: jeythasahana.venkateshbabu@pace.edu 🦉💻
 
-📫 Reach me through my GitHub profile or via jeythasahana.venkateshbabu@pace.edu. 
-
-⚡ Fun fact: I'm gearing up for a Google Internship 🚀 and excited, nervous and looking forward to great learning. Wish me luck!
+🚀 Just launched into my Google internship journey — learning from brilliant minds and soaking in cosmic-level insights every day! 🌟
