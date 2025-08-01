@@ -2,7 +2,7 @@
 
 
 <h1 align="center">Hi 👋, I'm Jeytha!</h1>
-🔭 navigating the universe of Industrial Control Systems (ICS) — where sparks fly, both literally and digitally! ⚙️✨
+🔭 Navigating the universe of Industrial Control Systems (ICS) — where sparks fly, both literally and digitally! ⚙️✨
 
 🌌 Passionate about bridging IT and OT realms, hunting threats across dimensions and collaborating on defences in cybersecurity.
 
