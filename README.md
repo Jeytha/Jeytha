@@ -3,9 +3,13 @@
 
 <h1 align="center">Hi 👋, I'm Jeytha!</h1>
 🔭 navigating the universe of Industrial Control Systems (ICS) — where sparks fly, both literally and digitally! ⚙️✨
+
 🌌 Passionate about bridging IT and OT realms, hunting threats across dimensions and collaborating on defences in cybersecurity.
+
 🌱 On a quest to conquer the Security+ exam
+
 📫Cast your messages via GitHub scrolls or owl-mail me at: jeythasahana.venkateshbabu@pace.edu 🦉💻
+
 👨‍💻Just launched into my Google internship journey — learning from brilliant minds and soaking in cosmic-level insights every day! 🌟
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=jeytha&label=Profile%20views&color=0e75b6&style=flat" alt="jeytha" /> </p>
 
