@@ -23,7 +23,9 @@
   <a href="https://medium.com/@jeythasahanav" target="_blank" rel="noopener" title="Medium" style="margin-left: 20px;">
     <img src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Medium_svg5-1024.png" alt="Medium" width="18" height="18" style="vertical-align: middle; margin-right: 5px;" />
     <span style="vertical-align: middle;">Medium </span>
-
+<a href="https://tryhackme.com/p/jeytha0408" target="_blank" rel="noopener" title="TryHackMe" style="margin-left: 20px;">
+        <iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=4924045" style='border:none; width: 250px; height: 150px; vertical-align: middle;'></iframe>
+    </a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
