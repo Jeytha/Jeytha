@@ -16,6 +16,7 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
+        <iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=4924045" style='border:none;'></iframe>
 <a href="https://www.linkedin.com/in/jeytha-sahana" target="_blank" rel="noopener" title="LinkedIn">
         <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" width="18" height="18" style="vertical-align: middle; margin-right: 5px;" />
         <span style="vertical-align: middle;">LinkedIn</span>
