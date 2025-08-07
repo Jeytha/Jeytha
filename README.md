@@ -16,7 +16,10 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="www.linkedin.com/in/jeytha-sahana" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="jeythasahana" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/jeytha-sahana" target="_blank" rel="noopener" title="LinkedIn">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" width="18" height="18" style="vertical-align: middle; margin-right: 5px;" />
+        <span style="vertical-align: middle;">LinkedIn</span>
+    </a>
   <a href="https://medium.com/@jeythasahanav" target="_blank" rel="noopener" title="Medium" style="margin-left: 20px;">
     <img src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Medium_svg5-1024.png" alt="Medium" width="18" height="18" style="vertical-align: middle; margin-right: 5px;" />
     <span style="vertical-align: middle;">Medium </span>
