@@ -2,16 +2,17 @@
 
 
 <h1 align="center">Hi 👋, I'm Jeytha!</h1>
+
+⚡Ex-Google Security Consultant intern 🛠️
+
 🔭 Navigating the universe of Industrial Control Systems (ICS) — where sparks fly, both literally and digitally! ⚙️✨
 
+🌌 Exploring ICS/OT, sniffing ports, flipping switches, and making firewalls sweat - From PLCs to cloud servers — if it has a port or a protocol, I’m probably poking it.
 
-🌌 Passionate about bridging IT and OT realms, hunting threats across dimensions and collaborating on defences in cybersecurity
+💻 Automating, defending, breaking, learning… repeat.
 
-🌱 On a quest to conquer the Security+ exam
+📫Send scrolls, carrier pigeons, or owl-mail to jeythaanikasahana@gmail.com 🦉💻
 
-📫Cast your messages via GitHub scrolls or owl-mail me at: jeythasahana.venkateshbabu@pace.edu 🦉💻
-
-👨‍💻Just launched into my Google internship journey — learning from brilliant minds and soaking in cosmic-level insights every day! 🌟
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=jeytha&label=Profile%20views&color=0e75b6&style=flat" alt="jeytha" /> </p>
 
 <h3 align="left">Connect with me:</h3>
